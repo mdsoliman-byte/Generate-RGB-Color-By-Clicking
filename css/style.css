@@ -2,4 +2,37 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color: black;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.hading{
+     font-size: 50px;
+     padding: 20px;
+     color: white;
+}
+.container h2{
+    font-size: 20px;
+    color: white;
+}
+#change-Button{
+    padding: 10px 20px;
+    background:none;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: wheat;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#change-Button:hover{
+    background-color: rebeccapurple;
+    color: white;
+
 }
